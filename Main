@@ -1,0 +1,43 @@
+import sys
+import math
+import datetime
+import tkinter.messagebox
+
+from tkinter import messagebox
+#import pycosat
+from tkinter import *
+
+root = Tk()
+root.title("Solving SAT Problem Application")
+root.geometry('950x800+0+0')
+# SAT functions
+
+def addEdges():
+  messagebox.showinfo("","")
+
+
+def addEdgesInverse():
+    messagebox.showinfo("", "")
+
+def dfsFirst():
+    messagebox.showinfo("", "")
+def dfsSecond():
+    messagebox.showinfo("", "")
+def is2Satidfabile():
+    messagebox.showinfo("", "")
+
+
+
+def ShowMSG():
+    messagebox.showinfo( "NP", "SAT")
+
+text = Text(root)
+text.insert(INSERT, "SAT Problem.....")
+text.pack()
+
+B = Button(root, text ="Exit",command = ShowMSG)
+B.pack()
+root.mainloop()
+
+print("welcome to our Forest Project for solving SAT Problem")
+message =input("Enter your Expression")
